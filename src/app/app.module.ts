@@ -7,6 +7,8 @@ import { GraphVisaulizerComponent } from './core/components/graph-visaulizer/gra
 import { NodeComponent } from './core/components/node/node.component';
 import { ActionsComponent } from './core/components/actions/actions.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,14 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     NodeComponent,
     ActionsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, DragDropModule],
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    DragDropModule, 
+    ReactiveFormsModule, 
+    CommonModule,
+    FormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

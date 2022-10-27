@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
 /**
 VARIABLES AND THEME COLORS
@@ -7,7 +8,9 @@ VARIABLES AND THEME COLORS
 
 $base-color: #f5f5f5;
 $border-dark: rgba($base-color, 0.88);
-$primary-font : "Work Sans";
+// $primary-font : "Work Sans";
+// $primary-font : 'Fuzzy Bubbles', cursive;
+$primary-font : monospace;
 
 body{
     margin : 0;
